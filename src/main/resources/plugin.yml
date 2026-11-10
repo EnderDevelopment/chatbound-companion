@@ -1,0 +1,13 @@
+name: AIFriend
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  friend:
+    description: Summon and control your AI friend.
+    usage: /friend <summon|follow|stay|wander|come|remove>
+    aliases: [aifriend]
+permissions:
+  aifriend.use:
+    description: Allows use of the AI friend.
+    default: true
